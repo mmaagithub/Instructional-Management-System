@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>xscjgl2</display-name>
+  <servlet>
+    <servlet-name>ServletLogin</servlet-name>
+    <servlet-class>com.servlet.ServletLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRegister</servlet-name>
+    <servlet-class>com.servlet.ServletRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Select</servlet-name>
+    <servlet-class>com.servletStudent.SelectStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteStuServlet</servlet-name>
+    <servlet-class>com.servletStudent.DeleteStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateStuServlet</servlet-name>
+    <servlet-class>com.servletStudent.UpdateStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>com.servletStudent.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectOneStudent</servlet-name>
+    <servlet-class>com.servletStudent.SelectOneStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Paging</servlet-name>
+    <servlet-class>com.paging.Paging</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectOneStuAllScore</servlet-name>
+    <servlet-class>com.score.SelectOneStuAllScore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectOneTeacher</servlet-name>
+    <servlet-class>com.servletTeacher.SelectOneTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectTeacher</servlet-name>
+    <servlet-class>com.servletTeacher.SelectTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <servlet-class>com.servletTeacher.AddTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteTeaServlet</servlet-name>
+    <servlet-class>com.servletTeacher.DeleteTeaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateTeaServlet</servlet-name>
+    <servlet-class>com.servletTeacher.UpdateTeaServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServletLogin</servlet-name>
+    <url-pattern>/ServletLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRegister</servlet-name>
+    <url-pattern>/ServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select</servlet-name>
+    <url-pattern>/SelectStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStuServlet</servlet-name>
+    <url-pattern>/DeleteStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStuServlet</servlet-name>
+    <url-pattern>/UpdateStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectOneStudent</servlet-name>
+    <url-pattern>/SelectOneStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Paging</servlet-name>
+    <url-pattern>/Paging</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectOneStuAllScore</servlet-name>
+    <url-pattern>/SelectOneStuAllScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectOneTeacher</servlet-name>
+    <url-pattern>/SelectOneTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectTeacher</servlet-name>
+    <url-pattern>/SelectTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <url-pattern>/AddTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTeaServlet</servlet-name>
+    <url-pattern>/DeleteTeaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTeaServlet</servlet-name>
+    <url-pattern>/UpdateTeaServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    
+    <welcome-file>Login.jsp</welcome-file>
+   
+  </welcome-file-list>
+</web-app>
